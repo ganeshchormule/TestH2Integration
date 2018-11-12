@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en" data-ng-app="shoppingCartApp">
+<head>
+  <meta charset="utf-8">
+   <!-- Always force latest IE rendering engine (even in intranet) -->
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <!-- Mobile viewport optimized: h5bp.com/viewport -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+   <meta http-equiv="Pragma" content="no-cache" />
+   <meta http-equiv="Expires" content="0" />   
+   
+   <title>Ganesh's Shopping Cart 1</title>
+   
+   <!--<link rel="stylesheet" href="css/main.css"/>-->
+     
+   
+    <!-- AngularJS/JQuery Framework libraries -->
+    <script src="scripts/lib/jquery/jquery-2.1.4.min.js"></script>
+	<script src="scripts/lib/angular/angular.min.js"></script>	
+    <script src="scripts/lib/angular/angular-route.min.js"></script>
+    <script src="scripts/lib/angular/angular-animate.min.js"></script>
+	<script src="scripts/lib/angular/angular-sanitize.min.js"></script>
+	
+	<!-- Other Third Party libraries -->
+    <script src="scripts/lib/translate/angular-translate.min.js"></script>
+    <script src="scripts/lib/translate/angular-translate-loader-partial.min.js"></script>
+    <script src="scripts/lib/local_storage/angular-local-storage.min.js"></script>
+	
+    <script src="scripts/lib/highcharts/highcharts-4.0.1.js"></script>
+    <script src="scripts/lib/noty/jquery.noty.js"></script>
+    <script src="scripts/lib/noty/jquery.noty.customized.js"></script>
+    <script src="scripts/lib/jquery/jquery.dropdown.js"></script>
+    <script src="scripts/lib/ui-grid/ui-grid.min.js"></script>
+    <script src="scripts/lib/base64/base64.js"></script>
+    <script src="scripts/lib/ui-grid/ui-grid-column-resizer.js"></script>
+       
+    <script src="scripts/lib/bootstrap/ui-bootstrap-tpls-2.5.0.min.js"></script>
+    <script src="scripts/lib/bootstrap/datetime-picker.js"></script>
+    
+   
+
+    <!-- load DC modules -->
+    <script src="scripts/app.js"></script>
+    
+    
+</head>
+<body>
+     
+	  <div id="navigation">  
+		  <a href="#/products">Search Products</a>
+		  <a href="#/registerUser">Register User</a>
+      </div>
+
+    <div id="main-view" data-ng-view></div>
+</body>
+</html>

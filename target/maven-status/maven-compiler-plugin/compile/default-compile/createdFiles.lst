@@ -1,0 +1,9 @@
+com\ganesh\h2\SpringBootH2IntegrationApplication.class
+com\ganesh\h2\controller\WebController.class
+com\ganesh\h2\model\Product.class
+com\ganesh\h2\repository\UserRepository.class
+com\ganesh\h2\model\Customer.class
+com\ganesh\h2\model\User.class
+com\ganesh\h2\repository\CustomerRepository.class
+com\ganesh\h2\repository\ProductRepository.class
+com\ganesh\h2\controller\UserController.class
